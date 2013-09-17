@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB33F09417E8ADB800741F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB33F09317E8ADB800741F79 /* UIKit.framework */; };
+		BB33F09617E8ADB800741F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB33F09517E8ADB800741F79 /* Foundation.framework */; };
+		BB33F09817E8ADB800741F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB33F09717E8ADB800741F79 /* CoreGraphics.framework */; };
+		BB33F09E17E8ADB900741F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB33F09C17E8ADB900741F79 /* InfoPlist.strings */; };
+		BB33F0A017E8ADB900741F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33F09F17E8ADB900741F79 /* main.m */; };
+		BB33F0A417E8ADB900741F79 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33F0A317E8ADB900741F79 /* MADAppDelegate.m */; };
+		BB33F0A617E8ADB900741F79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0A517E8ADB900741F79 /* Default.png */; };
+		BB33F0A817E8ADB900741F79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0A717E8ADB900741F79 /* Default@2x.png */; };
+		BB33F0AA17E8ADB900741F79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0A917E8ADB900741F79 /* Default-568h@2x.png */; };
+		BB33F0AD17E8ADB900741F79 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB33F0AC17E8ADB900741F79 /* MADViewController.m */; };
+		BB33F0B017E8ADB900741F79 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0AE17E8ADB900741F79 /* MADViewController.xib */; };
+		BB33F0B917E8B10200741F79 /* beach_boys1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0B617E8B10200741F79 /* beach_boys1.png */; };
+		BB33F0BA17E8B10200741F79 /* beachboys2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0B717E8B10200741F79 /* beachboys2.png */; };
+		BB33F0BB17E8B10200741F79 /* beachboys3.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0B817E8B10200741F79 /* beachboys3.png */; };
+		BB33F0BD17E8B86500741F79 /* BeachBoysCover.png in Resources */ = {isa = PBXBuildFile; fileRef = BB33F0BC17E8B86500741F79 /* BeachBoysCover.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB33F09017E8ADB800741F79 /* Beach Boys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beach Boys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB33F09317E8ADB800741F79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB33F09517E8ADB800741F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB33F09717E8ADB800741F79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB33F09B17E8ADB900741F79 /* Beach Boys-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beach Boys-Info.plist"; sourceTree = "<group>"; };
+		BB33F09D17E8ADB900741F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB33F09F17E8ADB900741F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB33F0A117E8ADB900741F79 /* Beach Boys-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beach Boys-Prefix.pch"; sourceTree = "<group>"; };
+		BB33F0A217E8ADB900741F79 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		BB33F0A317E8ADB900741F79 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		BB33F0A517E8ADB900741F79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BB33F0A717E8ADB900741F79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BB33F0A917E8ADB900741F79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BB33F0AB17E8ADB900741F79 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		BB33F0AC17E8ADB900741F79 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		BB33F0AF17E8ADB900741F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+		BB33F0B617E8B10200741F79 /* beach_boys1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beach_boys1.png; path = ../beach_boys1.png; sourceTree = "<group>"; };
+		BB33F0B717E8B10200741F79 /* beachboys2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beachboys2.png; path = ../beachboys2.png; sourceTree = "<group>"; };
+		BB33F0B817E8B10200741F79 /* beachboys3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beachboys3.png; path = ../beachboys3.png; sourceTree = "<group>"; };
+		BB33F0BC17E8B86500741F79 /* BeachBoysCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeachBoysCover.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB33F08D17E8ADB800741F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB33F09417E8ADB800741F79 /* UIKit.framework in Frameworks */,
+				BB33F09617E8ADB800741F79 /* Foundation.framework in Frameworks */,
+				BB33F09817E8ADB800741F79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB33F08717E8ADB800741F79 = {
+			isa = PBXGroup;
+			children = (
+				BB33F0BC17E8B86500741F79 /* BeachBoysCover.png */,
+				BB33F0B617E8B10200741F79 /* beach_boys1.png */,
+				BB33F0B717E8B10200741F79 /* beachboys2.png */,
+				BB33F0B817E8B10200741F79 /* beachboys3.png */,
+				BB33F09917E8ADB800741F79 /* Beach Boys */,
+				BB33F09217E8ADB800741F79 /* Frameworks */,
+				BB33F09117E8ADB800741F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB33F09117E8ADB800741F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB33F09017E8ADB800741F79 /* Beach Boys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB33F09217E8ADB800741F79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB33F09317E8ADB800741F79 /* UIKit.framework */,
+				BB33F09517E8ADB800741F79 /* Foundation.framework */,
+				BB33F09717E8ADB800741F79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB33F09917E8ADB800741F79 /* Beach Boys */ = {
+			isa = PBXGroup;
+			children = (
+				BB33F0A217E8ADB900741F79 /* MADAppDelegate.h */,
+				BB33F0A317E8ADB900741F79 /* MADAppDelegate.m */,
+				BB33F0AB17E8ADB900741F79 /* MADViewController.h */,
+				BB33F0AC17E8ADB900741F79 /* MADViewController.m */,
+				BB33F0AE17E8ADB900741F79 /* MADViewController.xib */,
+				BB33F09A17E8ADB800741F79 /* Supporting Files */,
+			);
+			path = "Beach Boys";
+			sourceTree = "<group>";
+		};
+		BB33F09A17E8ADB800741F79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB33F09B17E8ADB900741F79 /* Beach Boys-Info.plist */,
+				BB33F09C17E8ADB900741F79 /* InfoPlist.strings */,
+				BB33F09F17E8ADB900741F79 /* main.m */,
+				BB33F0A117E8ADB900741F79 /* Beach Boys-Prefix.pch */,
+				BB33F0A517E8ADB900741F79 /* Default.png */,
+				BB33F0A717E8ADB900741F79 /* Default@2x.png */,
+				BB33F0A917E8ADB900741F79 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB33F08F17E8ADB800741F79 /* Beach Boys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB33F0B317E8ADB900741F79 /* Build configuration list for PBXNativeTarget "Beach Boys" */;
+			buildPhases = (
+				BB33F08C17E8ADB800741F79 /* Sources */,
+				BB33F08D17E8ADB800741F79 /* Frameworks */,
+				BB33F08E17E8ADB800741F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beach Boys";
+			productName = "Beach Boys";
+			productReference = BB33F09017E8ADB800741F79 /* Beach Boys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB33F08817E8ADB800741F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matthew Kane Semcken";
+			};
+			buildConfigurationList = BB33F08B17E8ADB800741F79 /* Build configuration list for PBXProject "Beach Boys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB33F08717E8ADB800741F79;
+			productRefGroup = BB33F09117E8ADB800741F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB33F08F17E8ADB800741F79 /* Beach Boys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB33F08E17E8ADB800741F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB33F09E17E8ADB900741F79 /* InfoPlist.strings in Resources */,
+				BB33F0A617E8ADB900741F79 /* Default.png in Resources */,
+				BB33F0A817E8ADB900741F79 /* Default@2x.png in Resources */,
+				BB33F0AA17E8ADB900741F79 /* Default-568h@2x.png in Resources */,
+				BB33F0B017E8ADB900741F79 /* MADViewController.xib in Resources */,
+				BB33F0B917E8B10200741F79 /* beach_boys1.png in Resources */,
+				BB33F0BA17E8B10200741F79 /* beachboys2.png in Resources */,
+				BB33F0BB17E8B10200741F79 /* beachboys3.png in Resources */,
+				BB33F0BD17E8B86500741F79 /* BeachBoysCover.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB33F08C17E8ADB800741F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB33F0A017E8ADB900741F79 /* main.m in Sources */,
+				BB33F0A417E8ADB900741F79 /* MADAppDelegate.m in Sources */,
+				BB33F0AD17E8ADB900741F79 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB33F09C17E8ADB900741F79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB33F09D17E8ADB900741F79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB33F0AE17E8ADB900741F79 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB33F0AF17E8ADB900741F79 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB33F0B117E8ADB900741F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB33F0B217E8ADB900741F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB33F0B417E8ADB900741F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beach Boys/Beach Boys-Prefix.pch";
+				INFOPLIST_FILE = "Beach Boys/Beach Boys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB33F0B517E8ADB900741F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beach Boys/Beach Boys-Prefix.pch";
+				INFOPLIST_FILE = "Beach Boys/Beach Boys-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB33F08B17E8ADB800741F79 /* Build configuration list for PBXProject "Beach Boys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB33F0B117E8ADB900741F79 /* Debug */,
+				BB33F0B217E8ADB900741F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB33F0B317E8ADB900741F79 /* Build configuration list for PBXNativeTarget "Beach Boys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB33F0B417E8ADB900741F79 /* Debug */,
+				BB33F0B517E8ADB900741F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB33F08817E8ADB800741F79 /* Project object */;
+}
