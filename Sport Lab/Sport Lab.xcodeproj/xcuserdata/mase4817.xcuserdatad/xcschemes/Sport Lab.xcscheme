@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB33F08F17E8ADB800741F79"
-               BuildableName = "Beach Boys.app"
-               BlueprintName = "Beach Boys"
-               ReferencedContainer = "container:Beach Boys.xcodeproj">
+               BlueprintIdentifier = "BB01438017E95999009CC19D"
+               BuildableName = "Sport Lab.app"
+               BlueprintName = "Sport Lab"
+               ReferencedContainer = "container:Sport Lab.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB33F08F17E8ADB800741F79"
-            BuildableName = "Beach Boys.app"
-            BlueprintName = "Beach Boys"
-            ReferencedContainer = "container:Beach Boys.xcodeproj">
+            BlueprintIdentifier = "BB01438017E95999009CC19D"
+            BuildableName = "Sport Lab.app"
+            BlueprintName = "Sport Lab"
+            ReferencedContainer = "container:Sport Lab.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB33F08F17E8ADB800741F79"
-            BuildableName = "Beach Boys.app"
-            BlueprintName = "Beach Boys"
-            ReferencedContainer = "container:Beach Boys.xcodeproj">
+            BlueprintIdentifier = "BB01438017E95999009CC19D"
+            BuildableName = "Sport Lab.app"
+            BlueprintName = "Sport Lab"
+            ReferencedContainer = "container:Sport Lab.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BB33F08F17E8ADB800741F79"
-            BuildableName = "Beach Boys.app"
-            BlueprintName = "Beach Boys"
-            ReferencedContainer = "container:Beach Boys.xcodeproj">
+            BlueprintIdentifier = "BB01438017E95999009CC19D"
+            BuildableName = "Sport Lab.app"
+            BlueprintName = "Sport Lab"
+            ReferencedContainer = "container:Sport Lab.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

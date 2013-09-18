@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad
 {
+    
+    _BBimageControl.selectedSegmentIndex= -1;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -40,7 +42,7 @@
     
 }
 - (IBAction)BBFontUpdate:(UISwitch *)sender {
-    if (_BBCapSwitch.on)
+    if (_BBCapSwitch.on )
         
         else {
              

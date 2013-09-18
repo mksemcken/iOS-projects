@@ -1,6 +1,6 @@
 //
 //  MADAppDelegate.m
-//  Beach Boys
+//  Sport Lab
 //
 //  Created by Matthew Kane Semcken on 9/17/13.
 //  Copyright (c) 2013 Matthew Kane Semcken. All rights reserved.

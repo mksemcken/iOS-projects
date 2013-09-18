@@ -14,7 +14,7 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>BeachBoysCover.png</string>
+				<string>Sports.png</string>
 			</array>
 		</dict>
 	</dict>
@@ -38,9 +38,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UISupportedInterfaceOrientations</key>
+	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
