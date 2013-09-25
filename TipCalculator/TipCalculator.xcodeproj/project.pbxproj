@@ -18,8 +18,6 @@
 		BB6AFC4117EB4E06009B15CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6AFC4017EB4E06009B15CD /* Default-568h@2x.png */; };
 		BB6AFC4417EB4E06009B15CD /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6AFC4317EB4E06009B15CD /* MADViewController.m */; };
 		BB6AFC4717EB4E06009B15CD /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB6AFC4517EB4E06009B15CD /* MADViewController.xib */; };
-		BB6AFC4F17EB563F009B15CD /* calc2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6AFC4D17EB563F009B15CD /* calc2.png */; };
-		BB6AFC5017EB563F009B15CD /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6AFC4E17EB563F009B15CD /* calculator.png */; };
 		BB6AFC5217EB5652009B15CD /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6AFC5117EB5652009B15CD /* calculator.png */; };
 		BB6AFC5417EB565B009B15CD /* calc2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB6AFC5317EB565B009B15CD /* calc2.png */; };
 /* End PBXBuildFile section */
@@ -41,8 +39,6 @@
 		BB6AFC4217EB4E06009B15CD /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		BB6AFC4317EB4E06009B15CD /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		BB6AFC4617EB4E06009B15CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
-		BB6AFC4D17EB563F009B15CD /* calc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calc2.png; path = ../../../../Users/mase4817/Downloads/calc2.png; sourceTree = "<group>"; };
-		BB6AFC4E17EB563F009B15CD /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = ../../../../Users/mase4817/Downloads/calculator.png; sourceTree = "<group>"; };
 		BB6AFC5117EB5652009B15CD /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
 		BB6AFC5317EB565B009B15CD /* calc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +62,6 @@
 			children = (
 				BB6AFC5317EB565B009B15CD /* calc2.png */,
 				BB6AFC5117EB5652009B15CD /* calculator.png */,
-				BB6AFC4D17EB563F009B15CD /* calc2.png */,
-				BB6AFC4E17EB563F009B15CD /* calculator.png */,
 				BB6AFC3017EB4E06009B15CD /* TipCalculator */,
 				BB6AFC2917EB4E06009B15CD /* Frameworks */,
 				BB6AFC2817EB4E06009B15CD /* Products */,
@@ -176,8 +170,6 @@
 				BB6AFC3F17EB4E06009B15CD /* Default@2x.png in Resources */,
 				BB6AFC4117EB4E06009B15CD /* Default-568h@2x.png in Resources */,
 				BB6AFC4717EB4E06009B15CD /* MADViewController.xib in Resources */,
-				BB6AFC4F17EB563F009B15CD /* calc2.png in Resources */,
-				BB6AFC5017EB563F009B15CD /* calculator.png in Resources */,
 				BB6AFC5217EB5652009B15CD /* calculator.png in Resources */,
 				BB6AFC5417EB565B009B15CD /* calc2.png in Resources */,
 			);
@@ -315,6 +307,7 @@
 				BB6AFC4C17EB4E06009B15CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
