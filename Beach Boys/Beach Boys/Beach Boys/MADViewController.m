@@ -43,20 +43,21 @@
 }
 - (IBAction)BBFontUpdate:(UISwitch *)sender {
     if (_BBCapSwitch.on )
+    {_BBlabel.text=[_BBlabel.text uppercaseString];}
         
-        else {
-             
+    else {
+        _BBlabel.text=[_BBlabel.text lowercaseString];}
             
-        
-        }
-        
     }
 
 - (IBAction)BBfontSize:(UISlider *)sender {
 
-    int BBfontsize
+    int BBfontSize = sender.value;
+    _fontsizelabel.text=[NSString stringWithFormat:@"%d", BBfontSize];
     
-    _fontsizelabel.text=[NSString stringwithformat:@"%d", fontsize]
+    UIFont *newFont = [UIFont systemFontOfSize:sender.value];
+    
+    _BBlabel.font=newFont;
     
 }
     
