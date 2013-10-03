@@ -18,6 +18,8 @@
 		4D1ECF2E17FCEB8800AC3604 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1ECF2D17FCEB8800AC3604 /* Default-568h@2x.png */; };
 		4D1ECF3117FCEB8800AC3604 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ECF3017FCEB8800AC3604 /* ViewController.m */; };
 		4D1ECF3417FCEB8800AC3604 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D1ECF3217FCEB8800AC3604 /* ViewController.xib */; };
+		4D9F971917FDD53B0056B239 /* cu57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9F971817FDD53B0056B239 /* cu57.png */; };
+		4D9F971B17FDD5610056B239 /* cu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9F971A17FDD5610056B239 /* cu2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		4D1ECF2F17FCEB8800AC3604 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4D1ECF3017FCEB8800AC3604 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D1ECF3317FCEB8800AC3604 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4D9F971817FDD53B0056B239 /* cu57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cu57.png; sourceTree = "<group>"; };
+		4D9F971A17FDD5610056B239 /* cu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cu2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		4D1ECF0B17FCEB8700AC3604 = {
 			isa = PBXGroup;
 			children = (
+				4D9F971A17FDD5610056B239 /* cu2.png */,
+				4D9F971817FDD53B0056B239 /* cu57.png */,
 				4D1ECF1D17FCEB8700AC3604 /* Browser Lab */,
 				4D1ECF1617FCEB8700AC3604 /* Frameworks */,
 				4D1ECF1517FCEB8700AC3604 /* Products */,
@@ -163,6 +169,8 @@
 				4D1ECF2C17FCEB8800AC3604 /* Default@2x.png in Resources */,
 				4D1ECF2E17FCEB8800AC3604 /* Default-568h@2x.png in Resources */,
 				4D1ECF3417FCEB8800AC3604 /* ViewController.xib in Resources */,
+				4D9F971917FDD53B0056B239 /* cu57.png in Resources */,
+				4D9F971B17FDD5610056B239 /* cu2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +306,7 @@
 				4D1ECF3917FCEB8800AC3604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
