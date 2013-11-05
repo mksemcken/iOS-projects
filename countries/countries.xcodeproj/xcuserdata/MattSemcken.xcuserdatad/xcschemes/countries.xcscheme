@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D72EC9918200B000059F0E6"
+               BlueprintIdentifier = "4D50142F18289E870081F4DE"
                BuildableName = "countries.app"
                BlueprintName = "countries"
                ReferencedContainer = "container:countries.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72EC9918200B000059F0E6"
+            BlueprintIdentifier = "4D50142F18289E870081F4DE"
             BuildableName = "countries.app"
             BlueprintName = "countries"
             ReferencedContainer = "container:countries.xcodeproj">
@@ -51,7 +51,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72EC9918200B000059F0E6"
+            BlueprintIdentifier = "4D50142F18289E870081F4DE"
             BuildableName = "countries.app"
             BlueprintName = "countries"
             ReferencedContainer = "container:countries.xcodeproj">
@@ -69,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D72EC9918200B000059F0E6"
+            BlueprintIdentifier = "4D50142F18289E870081F4DE"
             BuildableName = "countries.app"
             BlueprintName = "countries"
             ReferencedContainer = "container:countries.xcodeproj">

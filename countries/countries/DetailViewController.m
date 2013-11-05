@@ -2,7 +2,7 @@
 //  DetailViewController.m
 //  countries
 //
-//  Created by Matthew Semcken on 10/29/13.
+//  Created by Matthew Semcken on 11/4/13.
 //  Copyright (c) 2013 MKS. All rights reserved.
 //
 
@@ -22,11 +22,14 @@
     }
     return self;
 }
+- (void)viewWillAppear:(BOOL)animated {
+    [self.tableView reloadData]; //reloads the data in the tableView
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    self.navigationItem.rightBarButtonItem=self.editButtonItem;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -44,16 +47,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+
+    return [_countryList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -61,9 +61,32 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]
+                initWithStyle:UITableViewCellStyleDefault
+                reuseIdentifier:CellIdentifier];
+    }
+    cell.textLabel.text=[_countryList objectAtIndex:indexPath.row];
+
     
     return cell;
+
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Return NO if you do not want the specified item to be editable.
+    return YES;
+}
+
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row=[indexPath row]; //gets the row being edited
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [_countryList removeObjectAtIndex:row]; //removes the row being deleted from the array
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
 }
 
 /*
