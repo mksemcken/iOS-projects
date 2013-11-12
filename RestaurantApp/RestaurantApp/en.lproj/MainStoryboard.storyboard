@@ -9,7 +9,6 @@
         <!--View Controller2-->
         <scene sceneID="Jcm-4p-NT1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lus-wV-BSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="rnK-38-php" customClass="ViewController2" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rmG-dm-Tqb">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
@@ -33,6 +32,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="eQp-n1-p96"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lus-wV-BSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1640" y="-137"/>
         </scene>
