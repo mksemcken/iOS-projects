@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D351A451832933300748E38 /* food-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D351A441832933300748E38 /* food-icon.png */; };
 		4D351A471832933F00748E38 /* food1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D351A461832933F00748E38 /* food1.png */; };
+		4D351A49183296B800748E38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D351A48183296B800748E38 /* Images.xcassets */; };
 		4DB4ADFB182C1C6700B7DDD8 /* foodlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4ADFA182C1C6700B7DDD8 /* foodlist.plist */; };
 		4DB4AE55182C3F9E00B7DDD8 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4AE52182C3F9E00B7DDD8 /* ViewController1.m */; };
 		4DB4AE56182C3F9E00B7DDD8 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4AE54182C3F9E00B7DDD8 /* ViewController2.m */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		4D351A441832933300748E38 /* food-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-icon.png"; sourceTree = "<group>"; };
 		4D351A461832933F00748E38 /* food1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food1.png; sourceTree = "<group>"; };
+		4D351A48183296B800748E38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4DB4ADFA182C1C6700B7DDD8 /* foodlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodlist.plist; sourceTree = "<group>"; };
 		4DB4AE51182C3F9E00B7DDD8 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController1.h; path = ../ViewController1.h; sourceTree = "<group>"; };
 		4DB4AE52182C3F9E00B7DDD8 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController1.m; path = ../ViewController1.m; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				8E5350EE182B4E2400B859D4 /* MADSecondViewController.m */,
 				8E5350F0182B4E2400B859D4 /* second.png */,
 				8E5350F2182B4E2400B859D4 /* second@2x.png */,
+				4D351A48183296B800748E38 /* Images.xcassets */,
 				8E5350D2182B4E2400B859D4 /* Supporting Files */,
 			);
 			path = RestaurantApp;
@@ -207,6 +210,7 @@
 				4D351A451832933300748E38 /* food-icon.png in Resources */,
 				8E5350EA182B4E2400B859D4 /* first.png in Resources */,
 				8E5350EC182B4E2400B859D4 /* first@2x.png in Resources */,
+				4D351A49183296B800748E38 /* Images.xcassets in Resources */,
 				8E5350F1182B4E2400B859D4 /* second.png in Resources */,
 				4D351A471832933F00748E38 /* food1.png in Resources */,
 				4DB4AE58182C49C900B7DDD8 /* home.jpeg in Resources */,
