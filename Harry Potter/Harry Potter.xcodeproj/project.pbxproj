@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0659011828B7A100982276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0659001828B7A100982276 /* Foundation.framework */; };
+		4D0659031828B7A100982276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0659021828B7A100982276 /* CoreGraphics.framework */; };
+		4D0659051828B7A100982276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0659041828B7A100982276 /* UIKit.framework */; };
+		4D06590B1828B7A100982276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D0659091828B7A100982276 /* InfoPlist.strings */; };
+		4D06590D1828B7A100982276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06590C1828B7A100982276 /* main.m */; };
+		4D0659111828B7A100982276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0659101828B7A100982276 /* AppDelegate.m */; };
+		4D0659141828B7A100982276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0659121828B7A100982276 /* Main.storyboard */; };
+		4D0659171828B7A100982276 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0659161828B7A100982276 /* MasterViewController.m */; };
+		4D06591A1828B7A100982276 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0659191828B7A100982276 /* DetailViewController.m */; };
+		4D06591C1828B7A100982276 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D06591B1828B7A100982276 /* Images.xcassets */; };
+		4D0659231828B7A100982276 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0659221828B7A100982276 /* XCTest.framework */; };
+		4D0659241828B7A100982276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0659001828B7A100982276 /* Foundation.framework */; };
+		4D0659251828B7A100982276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0659041828B7A100982276 /* UIKit.framework */; };
+		4D06592D1828B7A100982276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D06592B1828B7A100982276 /* InfoPlist.strings */; };
+		4D06592F1828B7A100982276 /* Harry_PotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06592E1828B7A100982276 /* Harry_PotterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D0659261828B7A100982276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0658F51828B7A100982276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0658FC1828B7A100982276;
+			remoteInfo = "Harry Potter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0658FD1828B7A100982276 /* Harry Potter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harry Potter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0659001828B7A100982276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D0659021828B7A100982276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D0659041828B7A100982276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D0659081828B7A100982276 /* Harry Potter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Harry Potter-Info.plist"; sourceTree = "<group>"; };
+		4D06590A1828B7A100982276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D06590C1828B7A100982276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D06590E1828B7A100982276 /* Harry Potter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Harry Potter-Prefix.pch"; sourceTree = "<group>"; };
+		4D06590F1828B7A100982276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D0659101828B7A100982276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D0659131828B7A100982276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D0659151828B7A100982276 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4D0659161828B7A100982276 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4D0659181828B7A100982276 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4D0659191828B7A100982276 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4D06591B1828B7A100982276 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D0659211828B7A100982276 /* Harry PotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harry PotterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0659221828B7A100982276 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D06592A1828B7A100982276 /* Harry PotterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Harry PotterTests-Info.plist"; sourceTree = "<group>"; };
+		4D06592C1828B7A100982276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D06592E1828B7A100982276 /* Harry_PotterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Harry_PotterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0658FA1828B7A100982276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0659031828B7A100982276 /* CoreGraphics.framework in Frameworks */,
+				4D0659051828B7A100982276 /* UIKit.framework in Frameworks */,
+				4D0659011828B7A100982276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D06591E1828B7A100982276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0659231828B7A100982276 /* XCTest.framework in Frameworks */,
+				4D0659251828B7A100982276 /* UIKit.framework in Frameworks */,
+				4D0659241828B7A100982276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0658F41828B7A100982276 = {
+			isa = PBXGroup;
+			children = (
+				4D0659061828B7A100982276 /* Harry Potter */,
+				4D0659281828B7A100982276 /* Harry PotterTests */,
+				4D0658FF1828B7A100982276 /* Frameworks */,
+				4D0658FE1828B7A100982276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0658FE1828B7A100982276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0658FD1828B7A100982276 /* Harry Potter.app */,
+				4D0659211828B7A100982276 /* Harry PotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0658FF1828B7A100982276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0659001828B7A100982276 /* Foundation.framework */,
+				4D0659021828B7A100982276 /* CoreGraphics.framework */,
+				4D0659041828B7A100982276 /* UIKit.framework */,
+				4D0659221828B7A100982276 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0659061828B7A100982276 /* Harry Potter */ = {
+			isa = PBXGroup;
+			children = (
+				4D06590F1828B7A100982276 /* AppDelegate.h */,
+				4D0659101828B7A100982276 /* AppDelegate.m */,
+				4D0659121828B7A100982276 /* Main.storyboard */,
+				4D0659151828B7A100982276 /* MasterViewController.h */,
+				4D0659161828B7A100982276 /* MasterViewController.m */,
+				4D0659181828B7A100982276 /* DetailViewController.h */,
+				4D0659191828B7A100982276 /* DetailViewController.m */,
+				4D06591B1828B7A100982276 /* Images.xcassets */,
+				4D0659071828B7A100982276 /* Supporting Files */,
+			);
+			path = "Harry Potter";
+			sourceTree = "<group>";
+		};
+		4D0659071828B7A100982276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0659081828B7A100982276 /* Harry Potter-Info.plist */,
+				4D0659091828B7A100982276 /* InfoPlist.strings */,
+				4D06590C1828B7A100982276 /* main.m */,
+				4D06590E1828B7A100982276 /* Harry Potter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0659281828B7A100982276 /* Harry PotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D06592E1828B7A100982276 /* Harry_PotterTests.m */,
+				4D0659291828B7A100982276 /* Supporting Files */,
+			);
+			path = "Harry PotterTests";
+			sourceTree = "<group>";
+		};
+		4D0659291828B7A100982276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D06592A1828B7A100982276 /* Harry PotterTests-Info.plist */,
+				4D06592B1828B7A100982276 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0658FC1828B7A100982276 /* Harry Potter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0659321828B7A100982276 /* Build configuration list for PBXNativeTarget "Harry Potter" */;
+			buildPhases = (
+				4D0658F91828B7A100982276 /* Sources */,
+				4D0658FA1828B7A100982276 /* Frameworks */,
+				4D0658FB1828B7A100982276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harry Potter";
+			productName = "Harry Potter";
+			productReference = 4D0658FD1828B7A100982276 /* Harry Potter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D0659201828B7A100982276 /* Harry PotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0659351828B7A100982276 /* Build configuration list for PBXNativeTarget "Harry PotterTests" */;
+			buildPhases = (
+				4D06591D1828B7A100982276 /* Sources */,
+				4D06591E1828B7A100982276 /* Frameworks */,
+				4D06591F1828B7A100982276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0659271828B7A100982276 /* PBXTargetDependency */,
+			);
+			name = "Harry PotterTests";
+			productName = "Harry PotterTests";
+			productReference = 4D0659211828B7A100982276 /* Harry PotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0658F51828B7A100982276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MKS;
+				TargetAttributes = {
+					4D0659201828B7A100982276 = {
+						TestTargetID = 4D0658FC1828B7A100982276;
+					};
+				};
+			};
+			buildConfigurationList = 4D0658F81828B7A100982276 /* Build configuration list for PBXProject "Harry Potter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D0658F41828B7A100982276;
+			productRefGroup = 4D0658FE1828B7A100982276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0658FC1828B7A100982276 /* Harry Potter */,
+				4D0659201828B7A100982276 /* Harry PotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0658FB1828B7A100982276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D06591C1828B7A100982276 /* Images.xcassets in Resources */,
+				4D06590B1828B7A100982276 /* InfoPlist.strings in Resources */,
+				4D0659141828B7A100982276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D06591F1828B7A100982276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D06592D1828B7A100982276 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0658F91828B7A100982276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0659111828B7A100982276 /* AppDelegate.m in Sources */,
+				4D0659171828B7A100982276 /* MasterViewController.m in Sources */,
+				4D06590D1828B7A100982276 /* main.m in Sources */,
+				4D06591A1828B7A100982276 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D06591D1828B7A100982276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D06592F1828B7A100982276 /* Harry_PotterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D0659271828B7A100982276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0658FC1828B7A100982276 /* Harry Potter */;
+			targetProxy = 4D0659261828B7A100982276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D0659091828B7A100982276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D06590A1828B7A100982276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D0659121828B7A100982276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0659131828B7A100982276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D06592B1828B7A100982276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D06592C1828B7A100982276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0659301828B7A100982276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4D0659311828B7A100982276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0659331828B7A100982276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Harry Potter/Harry Potter-Prefix.pch";
+				INFOPLIST_FILE = "Harry Potter/Harry Potter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D0659341828B7A100982276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Harry Potter/Harry Potter-Prefix.pch";
+				INFOPLIST_FILE = "Harry Potter/Harry Potter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D0659361828B7A100982276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Harry Potter.app/Harry Potter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Harry Potter/Harry Potter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Harry PotterTests/Harry PotterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D0659371828B7A100982276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Harry Potter.app/Harry Potter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Harry Potter/Harry Potter-Prefix.pch";
+				INFOPLIST_FILE = "Harry PotterTests/Harry PotterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0658F81828B7A100982276 /* Build configuration list for PBXProject "Harry Potter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0659301828B7A100982276 /* Debug */,
+				4D0659311828B7A100982276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0659321828B7A100982276 /* Build configuration list for PBXNativeTarget "Harry Potter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0659331828B7A100982276 /* Debug */,
+				4D0659341828B7A100982276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0659351828B7A100982276 /* Build configuration list for PBXNativeTarget "Harry PotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0659361828B7A100982276 /* Debug */,
+				4D0659371828B7A100982276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0658F51828B7A100982276 /* Project object */;
+}
