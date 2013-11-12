@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4D750B182A01180095FD1D /* CountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D750A182A01180095FD1D /* CountryViewController.m */; };
 		4D50143418289E870081F4DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D50143318289E870081F4DE /* UIKit.framework */; };
 		4D50143618289E870081F4DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D50143518289E870081F4DE /* Foundation.framework */; };
 		4D50143818289E870081F4DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D50143718289E870081F4DE /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D4D7509182A01180095FD1D /* CountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryViewController.h; sourceTree = "<group>"; };
+		4D4D750A182A01180095FD1D /* CountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryViewController.m; sourceTree = "<group>"; };
 		4D50143018289E870081F4DE /* countries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = countries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D50143318289E870081F4DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D50143518289E870081F4DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				4D50144218289E870081F4DE /* AppDelegate.h */,
 				4D50144318289E870081F4DE /* AppDelegate.m */,
 				4D50144B18289E870081F4DE /* MainStoryboard.storyboard */,
+				4D4D7509182A01180095FD1D /* CountryViewController.h */,
+				4D4D750A182A01180095FD1D /* CountryViewController.m */,
 				4D5014581828A1E80081F4DE /* DetailViewController.h */,
 				4D5014591828A1E80081F4DE /* DetailViewController.m */,
 				4D50144E18289E870081F4DE /* ViewController.h */,
@@ -183,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D50144018289E870081F4DE /* main.m in Sources */,
+				4D4D750B182A01180095FD1D /* CountryViewController.m in Sources */,
 				4D50144418289E870081F4DE /* AppDelegate.m in Sources */,
 				4D50145018289E870081F4DE /* ViewController.m in Sources */,
 				4D50145A1828A1E80081F4DE /* DetailViewController.m in Sources */,
