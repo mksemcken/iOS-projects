@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DetailViewController.h"
+#import "ContinentInfoViewController.h"
 
 @interface ViewController ()
 {
@@ -61,10 +62,22 @@ NSMutableDictionary *continentData;
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"countrysegue"]) {
         DetailViewController *countryViewController=segue.destinationViewController;
-        NSIndexPath *indexPath=[self.tableView indexPathForSelectedRow];
+      
+        NSIndexPath *indexPath=[self.tableView indexPathForCell:sender];
         NSArray *rowData=[continentData allKeys]; //creates an array with all keys from our dictionary
         countryViewController.title=[rowData objectAtIndex:indexPath.row];
         countryViewController.countryList=[continentData objectForKey:countryViewController.title];
+    }
+    if ([segue.identifier isEqualToString:@"continentsegue"]) {
+        ContinentInfoViewController
+        *infoViewController=segue.destinationViewController;
+        NSIndexPath *indexPath=[self.tableView
+                                indexPathForSelectedRow];
+        NSArray *rowData=[continentData allKeys];
+        infoViewController.name=[rowData
+                                 objectAtIndex:indexPath.row];
+        infoViewController.number=[NSString stringWithFormat:@"%d",
+                                   [[continentData objectForKey:infoViewController.name] count]]; 
     }
 }
 
