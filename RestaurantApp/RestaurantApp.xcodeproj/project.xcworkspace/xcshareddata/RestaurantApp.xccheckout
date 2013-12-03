@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF214C86-03E5-4629-A261-583B2935AB8C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RestaurantApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F1AF2CB-DEE9-47E5-83A8-FE1DE347F916</key>
+		<string>https://github.com/mksemcken/iOS-projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RestaurantApp/RestaurantApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F1AF2CB-DEE9-47E5-83A8-FE1DE347F916</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mksemcken/iOS-projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F1AF2CB-DEE9-47E5-83A8-FE1DE347F916</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F1AF2CB-DEE9-47E5-83A8-FE1DE347F916</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAD-projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
