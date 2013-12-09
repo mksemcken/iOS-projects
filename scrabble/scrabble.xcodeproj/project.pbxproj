@@ -20,9 +20,7 @@
 		4D66CA4E1816D22200E1D6A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D66CA4D1816D22200E1D6A5 /* ViewController.m */; };
 		4D66CA551816D43A00E1D6A5 /* qwordswithoutu1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D66CA541816D43A00E1D6A5 /* qwordswithoutu1.plist */; };
 		4D66CA571816DF4600E1D6A5 /* scrabbletile30.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D66CA561816DF4600E1D6A5 /* scrabbletile30.png */; };
-		4D66CA591816E1D000E1D6A5 /* scrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D66CA581816E1D000E1D6A5 /* scrab.png */; };
 		4D66CA5B1816E40700E1D6A5 /* scrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D66CA5A1816E40700E1D6A5 /* scrab.png */; };
-		4D66CA5D1816E42100E1D6A5 /* scrab2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D66CA5C1816E42100E1D6A5 /* scrab2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,9 +42,7 @@
 		4D66CA4D1816D22200E1D6A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D66CA541816D43A00E1D6A5 /* qwordswithoutu1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = qwordswithoutu1.plist; path = ../../qwordswithoutu1.plist; sourceTree = "<group>"; };
 		4D66CA561816DF4600E1D6A5 /* scrabbletile30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scrabbletile30.png; path = ../../scrabbletile30.png; sourceTree = "<group>"; };
-		4D66CA581816E1D000E1D6A5 /* scrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scrab.png; path = ../../../../../../Downloads/scrab.png; sourceTree = "<group>"; };
 		4D66CA5A1816E40700E1D6A5 /* scrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrab.png; sourceTree = "<group>"; };
-		4D66CA5C1816E42100E1D6A5 /* scrab2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = scrab2.jpeg; path = ../../../../../../Downloads/scrab2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +62,7 @@
 		4D66CA251816D22200E1D6A5 = {
 			isa = PBXGroup;
 			children = (
-				4D66CA5C1816E42100E1D6A5 /* scrab2.jpeg */,
 				4D66CA5A1816E40700E1D6A5 /* scrab.png */,
-				4D66CA581816E1D000E1D6A5 /* scrab.png */,
 				4D66CA561816DF4600E1D6A5 /* scrabbletile30.png */,
 				4D66CA541816D43A00E1D6A5 /* qwordswithoutu1.plist */,
 				4D66CA371816D22200E1D6A5 /* scrabble */,
@@ -180,9 +174,7 @@
 				4D66CA4B1816D22200E1D6A5 /* MainStoryboard.storyboard in Resources */,
 				4D66CA551816D43A00E1D6A5 /* qwordswithoutu1.plist in Resources */,
 				4D66CA571816DF4600E1D6A5 /* scrabbletile30.png in Resources */,
-				4D66CA591816E1D000E1D6A5 /* scrab.png in Resources */,
 				4D66CA5B1816E40700E1D6A5 /* scrab.png in Resources */,
-				4D66CA5D1816E42100E1D6A5 /* scrab2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +310,7 @@
 				4D66CA531816D22200E1D6A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

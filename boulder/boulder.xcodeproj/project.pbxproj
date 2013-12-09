@@ -27,7 +27,6 @@
 		4D1CBCA8181043B9003D3006 /* boulder57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CBCA7181043B9003D3006 /* boulder57.png */; };
 		4D1CBCAA18104449003D3006 /* boulder114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CBCA918104449003D3006 /* boulder114.png */; };
 		4D1CBCAD1810466F003D3006 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CBCAC1810466F003D3006 /* WebViewController.m */; };
-		4D1CBCAF18104CFF003D3006 /* us-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1CBCAE18104CFF003D3006 /* us-flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,12 +52,11 @@
 		4D1CBC9A1810359C003D3006 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		4D1CBC9C1810359C003D3006 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		4D1CBC9E1810359C003D3006 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		4D1CBCA518103898003D3006 /* boulderflatirons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boulderflatirons.png; path = ../../../../../../Downloads/boulderflatirons.png; sourceTree = "<group>"; };
+		4D1CBCA518103898003D3006 /* boulderflatirons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulderflatirons.png; sourceTree = "<group>"; };
 		4D1CBCA7181043B9003D3006 /* boulder57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulder57.png; sourceTree = "<group>"; };
 		4D1CBCA918104449003D3006 /* boulder114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulder114.png; sourceTree = "<group>"; };
 		4D1CBCAB1810466F003D3006 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		4D1CBCAC1810466F003D3006 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		4D1CBCAE18104CFF003D3006 /* us-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "us-flag.png"; path = "../../../../../../Downloads/us-flag.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 		4D1CBC6B1810359C003D3006 = {
 			isa = PBXGroup;
 			children = (
-				4D1CBCAE18104CFF003D3006 /* us-flag.png */,
 				4D1CBCA918104449003D3006 /* boulder114.png */,
 				4D1CBCA7181043B9003D3006 /* boulder57.png */,
 				4D1CBCA518103898003D3006 /* boulderflatirons.png */,
@@ -204,7 +201,6 @@
 				4D1CBCA618103898003D3006 /* boulderflatirons.png in Resources */,
 				4D1CBCA8181043B9003D3006 /* boulder57.png in Resources */,
 				4D1CBCAA18104449003D3006 /* boulder114.png in Resources */,
-				4D1CBCAF18104CFF003D3006 /* us-flag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +340,7 @@
 				4D1CBCA41810359C003D3006 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
