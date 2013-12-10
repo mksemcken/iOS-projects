@@ -28,7 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)BBswitch:(UISegmentedControl *)sender {
+- (void)updateImage {
     
     if (_BBimageControl.selectedSegmentIndex==0) {_BBlabel.text=@"1960s";
         _BBimage.image=[UIImage imageNamed:@"beachboys2.png"];}
@@ -41,14 +41,21 @@
     
     
 }
-- (IBAction)BBFontUpdate:(UISwitch *)sender {
-    if (_BBCapSwitch.on )
-    {_BBlabel.text=[_BBlabel.text uppercaseString];}
+- (void)updateCaps{
+if (_BBCapSwitch.on ){
+    _BBlabel.text=[_BBlabel.text uppercaseString];}
         
-    else {
+    else  {
         _BBlabel.text=[_BBlabel.text lowercaseString];}
-            
-    }
+}
+
+-(IBAction)BBswitch:(UISegmentedControl *)sender{
+    [self updateImage];
+    [self updateCaps];
+}
+-(IBAction)BBFontUpdate:(UISwitch *)sender{
+    [self updateCaps];
+}
 
 - (IBAction)BBfontSize:(UISlider *)sender {
 
