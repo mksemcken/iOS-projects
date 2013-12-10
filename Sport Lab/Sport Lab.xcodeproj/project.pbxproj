@@ -42,9 +42,9 @@
 		BB01439D17E95999009CC19D /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		BB0143A017E95999009CC19D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
 		BB0143A717E959CF009CC19D /* Sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sports.png; sourceTree = "<group>"; };
-		BB0143A917E95B53009CC19D /* baseball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baseball.jpg; path = ../../../../Users/mase4817/Downloads/baseball.jpg; sourceTree = "<group>"; };
-		BB0143AB17E95EE1009CC19D /* baseball1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baseball1.jpg; path = ../../../../Users/mase4817/Downloads/baseball1.jpg; sourceTree = "<group>"; };
-		BB0143AC17E95EE1009CC19D /* baseball2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baseball2.jpg; path = ../../../../Users/mase4817/Downloads/baseball2.jpg; sourceTree = "<group>"; };
+		BB0143A917E95B53009CC19D /* baseball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseball.jpg; sourceTree = "<group>"; };
+		BB0143AB17E95EE1009CC19D /* baseball1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseball1.jpg; sourceTree = "<group>"; };
+		BB0143AC17E95EE1009CC19D /* baseball2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseball2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +317,7 @@
 				BB0143A617E95999009CC19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

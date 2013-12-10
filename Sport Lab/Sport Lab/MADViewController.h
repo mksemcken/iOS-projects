@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MADViewController : UIViewController
+@interface MADViewController : UIViewController<UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *sportImage;
 
