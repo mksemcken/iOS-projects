@@ -37,6 +37,12 @@
         _task3.text=taskArchive.taskthree;
         _task4.text=taskArchive.taskfour;
         
+        
+        _task1.delegate=self;
+     _task2.delegate=self;
+        _task3.delegate=self;
+        _task4.delegate=self;
+        
     }
     
     UIApplication *app=[UIApplication sharedApplication];
@@ -64,5 +70,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
 
 @end

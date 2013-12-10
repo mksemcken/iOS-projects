@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *task1;
 @property (weak, nonatomic) IBOutlet UITextField *task2;
 @property (weak, nonatomic) IBOutlet UITextField *task3;
 @property (weak, nonatomic) IBOutlet UITextField *task4;
 
 @end
+
+
