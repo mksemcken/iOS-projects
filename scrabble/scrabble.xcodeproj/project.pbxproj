@@ -40,7 +40,7 @@
 		4D66CA4A1816D22200E1D6A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4D66CA4C1816D22200E1D6A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4D66CA4D1816D22200E1D6A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4D66CA541816D43A00E1D6A5 /* qwordswithoutu1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = qwordswithoutu1.plist; path = ../../qwordswithoutu1.plist; sourceTree = "<group>"; };
+		4D66CA541816D43A00E1D6A5 /* qwordswithoutu1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = qwordswithoutu1.plist; sourceTree = "<group>"; };
 		4D66CA561816DF4600E1D6A5 /* scrabbletile30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scrabbletile30.png; path = ../../scrabbletile30.png; sourceTree = "<group>"; };
 		4D66CA5A1816E40700E1D6A5 /* scrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrab.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
