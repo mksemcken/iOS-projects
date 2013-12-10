@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26E71423-E85A-46E7-809D-3AE2A4A36DC4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>harry-potter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>624F1B80-281C-4770-ABDA-0238BFDD8B22</key>
+		<string>https://github.com/mksemcken/iOS-projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>harry-potter/harry-potter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>624F1B80-281C-4770-ABDA-0238BFDD8B22</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mksemcken/iOS-projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>624F1B80-281C-4770-ABDA-0238BFDD8B22</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>624F1B80-281C-4770-ABDA-0238BFDD8B22</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAD-projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
