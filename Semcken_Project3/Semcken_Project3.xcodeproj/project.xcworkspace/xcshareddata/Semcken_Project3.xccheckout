@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25D3C0A6-D477-4801-BBC0-8D691F51B5F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Semcken_Project3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F17DEAE-E571-4679-B7C9-A9CDD1DFC2F2</key>
+		<string>https://github.com/mksemcken/iOS-projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Semcken_Project3/Semcken_Project3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F17DEAE-E571-4679-B7C9-A9CDD1DFC2F2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mksemcken/iOS-projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F17DEAE-E571-4679-B7C9-A9CDD1DFC2F2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F17DEAE-E571-4679-B7C9-A9CDD1DFC2F2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
