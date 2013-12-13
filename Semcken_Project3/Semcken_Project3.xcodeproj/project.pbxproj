@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D123233185A8A81005C09B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D123232185A8A81005C09B4 /* MapKit.framework */; };
+		4D123235185A8A88005C09B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D123234185A8A88005C09B4 /* CoreLocation.framework */; };
+		4D5E0F93185AABC00096BBFA /* tw.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E0F92185AABC00096BBFA /* tw.png */; };
+		4D5E0F95185AABCE0096BBFA /* fbl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E0F94185AABCE0096BBFA /* fbl.png */; };
+		4D85A683185AADB8009B33DE /* socialmedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85A682185AADB8009B33DE /* socialmedia.m */; };
+		4D85A685185AAEFF009B33DE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D85A684185AAEFF009B33DE /* Social.framework */; };
 		4DEB59BC18596E8F004F7B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB59BB18596E8F004F7B45 /* Foundation.framework */; };
 		4DEB59BE18596E8F004F7B45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB59BD18596E8F004F7B45 /* CoreGraphics.framework */; };
 		4DEB59C018596E8F004F7B45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB59BF18596E8F004F7B45 /* UIKit.framework */; };
@@ -44,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D123232185A8A81005C09B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4D123234185A8A88005C09B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4D5E0F92185AABC00096BBFA /* tw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tw.png; sourceTree = "<group>"; };
+		4D5E0F94185AABCE0096BBFA /* fbl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbl.png; sourceTree = "<group>"; };
+		4D85A681185AADB8009B33DE /* socialmedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socialmedia.h; sourceTree = "<group>"; };
+		4D85A682185AADB8009B33DE /* socialmedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = socialmedia.m; sourceTree = "<group>"; };
+		4D85A684185AAEFF009B33DE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4DEB59B818596E8F004F7B45 /* Semcken_Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semcken_Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEB59BB18596E8F004F7B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DEB59BD18596E8F004F7B45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D85A685185AAEFF009B33DE /* Social.framework in Frameworks */,
+				4D123235185A8A88005C09B4 /* CoreLocation.framework in Frameworks */,
+				4D123233185A8A81005C09B4 /* MapKit.framework in Frameworks */,
 				4DEB5A571859A23F004F7B45 /* MessageUI.framework in Frameworks */,
 				4DEB5A0518598534004F7B45 /* MobileCoreServices.framework in Frameworks */,
 				4DEB5A031859852C004F7B45 /* MediaPlayer.framework in Frameworks */,
@@ -107,6 +123,8 @@
 		4DEB59AF18596E8F004F7B45 = {
 			isa = PBXGroup;
 			children = (
+				4D5E0F94185AABCE0096BBFA /* fbl.png */,
+				4D5E0F92185AABC00096BBFA /* tw.png */,
 				4DEB5A0A185999E0004F7B45 /* message-white-icon.png */,
 				4DEB5A0818599818004F7B45 /* mail_white.png */,
 				4DEB5A06185996BB004F7B45 /* title.png */,
@@ -131,6 +149,9 @@
 		4DEB59BA18596E8F004F7B45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D85A684185AAEFF009B33DE /* Social.framework */,
+				4D123234185A8A88005C09B4 /* CoreLocation.framework */,
+				4D123232185A8A81005C09B4 /* MapKit.framework */,
 				4DEB5A561859A23F004F7B45 /* MessageUI.framework */,
 				4DEB5A0418598534004F7B45 /* MobileCoreServices.framework */,
 				4DEB5A021859852C004F7B45 /* MediaPlayer.framework */,
@@ -148,6 +169,8 @@
 				4DEB59CA18596E8F004F7B45 /* AppDelegate.h */,
 				4DEB59CB18596E8F004F7B45 /* AppDelegate.m */,
 				4DEB59CD18596E8F004F7B45 /* Main.storyboard */,
+				4D85A681185AADB8009B33DE /* socialmedia.h */,
+				4D85A682185AADB8009B33DE /* socialmedia.m */,
 				4DEB59F918597ADA004F7B45 /* CameraViewController.h */,
 				4DEB59FA18597ADA004F7B45 /* CameraViewController.m */,
 				4DEB59D018596E8F004F7B45 /* FirstViewController.h */,
@@ -269,6 +292,8 @@
 				4DEB5A0918599818004F7B45 /* mail_white.png in Resources */,
 				4DEB59D718596E90004F7B45 /* Images.xcassets in Resources */,
 				4DEB59C618596E8F004F7B45 /* InfoPlist.strings in Resources */,
+				4D5E0F95185AABCE0096BBFA /* fbl.png in Resources */,
+				4D5E0F93185AABC00096BBFA /* tw.png in Resources */,
 				4DEB59CF18596E8F004F7B45 /* Main.storyboard in Resources */,
 				4DEB59F418597600004F7B45 /* background.jpeg in Resources */,
 				4DEB59F7185977FC004F7B45 /* camera.png in Resources */,
@@ -292,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DEB59FB18597ADA004F7B45 /* CameraViewController.m in Sources */,
+				4D85A683185AADB8009B33DE /* socialmedia.m in Sources */,
 				4DEB59D518596E8F004F7B45 /* SecondViewController.m in Sources */,
 				4DEB59CC18596E8F004F7B45 /* AppDelegate.m in Sources */,
 				4DEB59D218596E8F004F7B45 /* FirstViewController.m in Sources */,
@@ -378,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -411,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -506,6 +532,7 @@
 				4DEB59EF18596E90004F7B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DEB59F018596E90004F7B45 /* Build configuration list for PBXNativeTarget "Semcken_Project3Tests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +541,7 @@
 				4DEB59F218596E90004F7B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
