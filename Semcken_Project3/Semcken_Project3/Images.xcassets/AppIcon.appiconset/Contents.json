@@ -17,8 +17,9 @@
       "scale" : "1x"
     },
     {
-      "idiom" : "iphone",
       "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "facebook-icon.png",
       "scale" : "2x"
     },
     {

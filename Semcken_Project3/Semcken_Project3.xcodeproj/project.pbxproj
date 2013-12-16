@@ -14,6 +14,7 @@
 		4D85A683185AADB8009B33DE /* socialmedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D85A682185AADB8009B33DE /* socialmedia.m */; };
 		4D85A685185AAEFF009B33DE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D85A684185AAEFF009B33DE /* Social.framework */; };
 		4D85A6D5185AE392009B33DE /* stumble.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D85A6D4185AE392009B33DE /* stumble.png */; };
+		4DAD4090185FA490004EC3A2 /* facebook-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD408F185FA490004EC3A2 /* facebook-icon.png */; };
 		4DEB59BC18596E8F004F7B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB59BB18596E8F004F7B45 /* Foundation.framework */; };
 		4DEB59BE18596E8F004F7B45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB59BD18596E8F004F7B45 /* CoreGraphics.framework */; };
 		4DEB59C018596E8F004F7B45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB59BF18596E8F004F7B45 /* UIKit.framework */; };
@@ -59,6 +60,7 @@
 		4D85A682185AADB8009B33DE /* socialmedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = socialmedia.m; sourceTree = "<group>"; };
 		4D85A684185AAEFF009B33DE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		4D85A6D4185AE392009B33DE /* stumble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stumble.png; sourceTree = "<group>"; };
+		4DAD408F185FA490004EC3A2 /* facebook-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-icon.png"; sourceTree = "<group>"; };
 		4DEB59B818596E8F004F7B45 /* Semcken_Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semcken_Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEB59BB18596E8F004F7B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4DEB59BD18596E8F004F7B45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +127,7 @@
 		4DEB59AF18596E8F004F7B45 = {
 			isa = PBXGroup;
 			children = (
+				4DAD408F185FA490004EC3A2 /* facebook-icon.png */,
 				4D85A6D4185AE392009B33DE /* stumble.png */,
 				4D5E0F94185AABCE0096BBFA /* fbl.png */,
 				4D5E0F92185AABC00096BBFA /* tw.png */,
@@ -295,6 +298,7 @@
 				4DEB5A0B185999E0004F7B45 /* message-white-icon.png in Resources */,
 				4DEB5A0918599818004F7B45 /* mail_white.png in Resources */,
 				4DEB59D718596E90004F7B45 /* Images.xcassets in Resources */,
+				4DAD4090185FA490004EC3A2 /* facebook-icon.png in Resources */,
 				4DEB59C618596E8F004F7B45 /* InfoPlist.strings in Resources */,
 				4D5E0F95185AABCE0096BBFA /* fbl.png in Resources */,
 				4D5E0F93185AABC00096BBFA /* tw.png in Resources */,
